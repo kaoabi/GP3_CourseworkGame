@@ -1,0 +1,649 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Coursework_Game.BoxActor" Collapsed="true">
+    <Position X="41.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAggAAAABIAACAAAAAAAAAAAAAAQIAAQ=</HashCode>
+      <FileName>boxactor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursework_Game.Camera" Collapsed="true">
+    <Position X="43" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCBAAAAAAAIAAoAAgAACCAAAAAAAAAAAAAIAgAAAA=</HashCode>
+      <FileName>Camera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursework_Game.DebugDrawer" Collapsed="true">
+    <Position X="44.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEgAAAwAAAAAAAAAAAAAAAAAAIABAAAAAAAQ=</HashCode>
+      <FileName>Debug draw.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursework_Game.Floor" Collapsed="true">
+    <Position X="13.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Floor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursework_Game.Game1" Collapsed="true">
+    <Position X="37.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARQgVkIYCEAIzwBgSAACEEEAFAAwAA0ABgCAQAAIgAQ=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursework_Game.GameObject" Collapsed="true">
+    <Position X="11" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQABAAQAIABAAgABAAAAAAAEAACAEAgABAAACAAAQA=</HashCode>
+      <FileName>GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursework_Game.GameVariables" Collapsed="true">
+    <Position X="39.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAQAAAIAAAAAAAAABAAAAACAAAA=</HashCode>
+      <FileName>GameVariables.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursework_Game.physController" Collapsed="true">
+    <Position X="2.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAQABAAAAAAAAAAAAAAAAAQgAAAAAAAA=</HashCode>
+      <FileName>Physics controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursework_Game.Prize" Collapsed="true">
+    <Position X="8.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAQAAIAAAAAAAAAAAAAAEAAAQAAAAAAAAA=</HashCode>
+      <FileName>Prize.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursework_Game.Program" Collapsed="true">
+    <Position X="36" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Coursework_Game.UFO" Collapsed="true">
+    <Position X="11" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UFO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Collision.CollPointInfo" Collapsed="true">
+    <Position X="43" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAQAAUAAgAAAAgAAAAAAAAAAAgAAAAQQACAAAAAAQ=</HashCode>
+      <FileName>JigLibX\Collision\CollisionInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Collision.CollisionInfo" Collapsed="true">
+    <Position X="37.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAICBIIAQAEAAFEACAAAAAAAABAAAAQAAgCQAAAAAA=</HashCode>
+      <FileName>JigLibX\Collision\CollisionInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Collision.CollisionSkin" Collapsed="true">
+    <Position X="41.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAKEqBIBAAgBAAAgEQBAQQOAGNiVAAAAGAPAbQAAA=</HashCode>
+      <FileName>JigLibX\Collision\CollisionSkin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Collision.CollisionFunctor" Collapsed="true">
+    <Position X="13.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>JigLibX\Collision\CollisionSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Collision.CollisionSkinPredicate2" Collapsed="true">
+    <Position X="11.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JigLibX\Collision\CollisionSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Collision.CollisionSkinPredicate1" Collapsed="true">
+    <Position X="5.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>JigLibX\Collision\CollisionSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Collision.CollisionSystem" Collapsed="true">
+    <Position X="3" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBAEAARAAEQABAAABAAAAAAogYCBAQAwgQAAAkCCAAA=</HashCode>
+      <FileName>JigLibX\Collision\CollisionSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Collision.CollisionSystemBrute" Collapsed="true">
+    <Position X="0.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAQAAAAAAAAAAAAAAAAgAAAAAQAgAAIAEgAAAAA=</HashCode>
+      <FileName>JigLibX\Collision\CollisionSystemBrute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Collision.GridEntry" Collapsed="true">
+    <Position X="41.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAgAAAAgBAAAAAAAAABAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>JigLibX\Collision\CollisionSystemGrid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Collision.CollisionSystemGrid" Collapsed="true">
+    <Position X="3" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABEAAQgAAAAgACAAAIIAAAwAAAAQQAwUQKAEoACBBA=</HashCode>
+      <FileName>JigLibX\Collision\CollisionSystemGrid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Collision.CollisionSystemSAP" Collapsed="true">
+    <Position X="5.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCUAAQAgBAEQAAAAAABQAAgAAAAAQAgAAJEAgQAAAA=</HashCode>
+      <FileName>JigLibX\Collision\CollisionSystemSAP.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="JigLibX.Collision.CollDetectBoxBox" Collapsed="true">
+    <Position X="22.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFAAAACAAQAAAAEAAAJAIAAAAAAAAAAAAAIAgBAAA=</HashCode>
+      <FileName>JigLibX\Collision\Detection\BoxBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Collision.CollDetectBoxHeightmap" Collapsed="true">
+    <Position X="26.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JigLibX\Collision\Detection\BoxHeightmap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Collision.CollDetectBoxPlane" Collapsed="true">
+    <Position X="31.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>JigLibX\Collision\Detection\BoxPlane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Collision.CollDetectBoxStaticMesh" Collapsed="true">
+    <Position X="2" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQEAAQAAAAAIIAAAAAAAAQAQAAAAABAAA=</HashCode>
+      <FileName>JigLibX\Collision\Detection\BoxStaticMesh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Collision.CollDetectCapsuleBox" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>JigLibX\Collision\Detection\CapsuleBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Collision.CollDetectCapsuleCapsule" Collapsed="true">
+    <Position X="11" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>JigLibX\Collision\Detection\CapsuleCapsule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Collision.CollDetectCapsuleHeightmap" Collapsed="true">
+    <Position X="15.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JigLibX\Collision\Detection\CapsuleHeightmap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Collision.CollDetectCapsulePlane" Collapsed="true">
+    <Position X="17.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JigLibX\Collision\Detection\CapsulePlane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Collision.CollDetectCapsuleStaticMesh" Collapsed="true">
+    <Position X="20" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAIAAAAIAEAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>JigLibX\Collision\Detection\CapsuleStaticMesh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Collision.DetectFunctor" Collapsed="true">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAABAAAAAAgAAAAgAAYIYAAEAAAAAIBJAAAAAQA=</HashCode>
+      <FileName>JigLibX\Collision\Detection\DetectFunctor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Collision.CollDetectSphereBox" Collapsed="true">
+    <Position X="24.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JigLibX\Collision\Detection\SphereBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Collision.CollDetectSphereCapsule" Collapsed="true">
+    <Position X="29" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>JigLibX\Collision\Detection\SphereCapsule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Collision.CollDetectSphereHeightmap" Collapsed="true">
+    <Position X="33.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JigLibX\Collision\Detection\SphereHeightmap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Collision.CollDetectSpherePlane" Collapsed="true">
+    <Position X="4.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JigLibX\Collision\Detection\SpherePlane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Collision.CollDetectSphereSphere" Collapsed="true">
+    <Position X="8.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>JigLibX\Collision\Detection\SphereSphere.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Collision.CollDetectSphereStaticMesh" Collapsed="true">
+    <Position X="13.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAIACAAAAAAAASAAAAAAAAA=</HashCode>
+      <FileName>JigLibX\Collision\Detection\SphereStaticMesh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Collision.MaterialTable" Collapsed="true">
+    <Position X="39.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABABACBAAAAAAAAAAAQAAAAAAgAAAAAABAAAA=</HashCode>
+      <FileName>JigLibX\Collision\Materials.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Geometry.Distance" Collapsed="true">
+    <Position X="36" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAQABCEAAAIGUCAAAAAAAAAAAAAAAAACAAE=</HashCode>
+      <FileName>JigLibX\Geometry\Distance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Geometry.Intersection" Collapsed="true">
+    <Position X="43" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAgAAAAAAAAAAAAgAAAAgEAJAAAAAAEAAAACA=</HashCode>
+      <FileName>JigLibX\Geometry\Intersection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Geometry.Octree" Collapsed="true">
+    <Position X="41.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQEIIAAAgCAEAgAAIAAIACAAAAAoAAAgAABgIAA=</HashCode>
+      <FileName>JigLibX\Geometry\Octree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Geometry.Overlap" Collapsed="true">
+    <Position X="43" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JigLibX\Geometry\Overlap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Geometry.AABox" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAgAEAJCQBAABAAAAAgSAAAIEiQAAAAAACQBAABA=</HashCode>
+      <FileName>JigLibX\Geometry\Primitives\AABox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Geometry.BoundingBoxHelper" Collapsed="true">
+    <Position X="39.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAQFAAAAAAAAAAAEIAAAEAAQAAQAAQAAAA=</HashCode>
+      <FileName>JigLibX\Geometry\Primitives\AABox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Geometry.Box" Collapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAAAEBAAYBAAAChAIAgAAQAAAAECQAAgAAACIAAQhA=</HashCode>
+      <FileName>JigLibX\Geometry\Primitives\Box.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Geometry.Capsule" Collapsed="true">
+    <Position X="12.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAACQAAAAAgAEAAAARAAAAECQAAAAAACAAACBA=</HashCode>
+      <FileName>JigLibX\Geometry\Primitives\Capsule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Geometry.Heightmap" Collapsed="true">
+    <Position X="14.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAABAAgAACEAAgAIRgAApGGQAUAAQACAAABRA=</HashCode>
+      <FileName>JigLibX\Geometry\Primitives\Heightmap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Geometry.Plane" Collapsed="true">
+    <Position X="1" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAyAAAgMCQAMAAAADAACgBA=</HashCode>
+      <FileName>JigLibX\Geometry\Primitives\Plane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Geometry.Primitive" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQgAAAFCQAIAQAACAAAgBA=</HashCode>
+      <FileName>JigLibX\Geometry\Primitives\Primitive.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Geometry.Sphere" Collapsed="true">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAACAAAAAAgAAAAAAQAAAAECQAACAAACAgAABA=</HashCode>
+      <FileName>JigLibX\Geometry\Primitives\Sphere.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Geometry.TriangleMesh" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAQEIAAAAgAAAAAAAAAagAAgECQAIAAAACIEAgBE=</HashCode>
+      <FileName>JigLibX\Geometry\Primitives\TriangleMesh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.JigLibXException" Collapsed="true">
+    <Position X="37.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JigLibX\JigLibXException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Math.JiggleMath" Collapsed="true">
+    <Position X="44.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAgAAAAABAAAAEAEAAAAAAAAAAQAIAAAAAAAABAAAA=</HashCode>
+      <FileName>JigLibX\Math\JiggleMath.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Physics.Body" Collapsed="true">
+    <Position X="8.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JsxHxggqM+aOuGYwmoEFGE5T0GlsQnEQyyURCKasqsg=</HashCode>
+      <FileName>JigLibX\Physics\Body.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Physics.Constraint" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAARAAAAEAAAAAAAAABABAAAAAAEAAACBBAAA=</HashCode>
+      <FileName>JigLibX\Physics\Constraint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Physics.ConstraintMaxDistance" Collapsed="true">
+    <Position X="0.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAABAAIQAAABAAAgQCAABgAAAAAUAAAAAAAEA=</HashCode>
+      <FileName>JigLibX\Physics\ConstraintMaxDistance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Physics.ConstraintPoint" Collapsed="true">
+    <Position X="3" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAQABAAAQAAAAAAAgQCAABgAAACAUAAAAAACEA=</HashCode>
+      <FileName>JigLibX\Physics\ConstraintPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Physics.ConstraintVelocity" Collapsed="true">
+    <Position X="5.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEBAAgQAAACAAAAAggQBAAAAABEABAQAAAAA=</HashCode>
+      <FileName>JigLibX\Physics\ConstraintVelocity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Physics.ConstraintWorldPoint" Collapsed="true">
+    <Position X="7.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAABAAgQAAAAABAAACAQBAAEAAAEAAAAAAAAA=</HashCode>
+      <FileName>JigLibX\Physics\ConstraintWorldPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Physics.Controller" Collapsed="true">
+    <Position X="1.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAEEAAAAAAAAAAAAAAACAAAAAI=</HashCode>
+      <FileName>JigLibX\Physics\Controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Physics.HingeJoint" Collapsed="true">
+    <Position X="0.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAACBCAAAAAQCFAZIEAAAAIAAAQBQAAQABABAAAAA=</HashCode>
+      <FileName>JigLibX\Physics\HingeJoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Physics.Joint" Collapsed="true">
+    <Position X="0.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JigLibX\Physics\Joint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Physics.CollisionIsland" Collapsed="true">
+    <Position X="39.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAABAAEIAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JigLibX\Physics\PhysicsCollision.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Physics.BasicCollisionFunctor" Collapsed="true">
+    <Position X="13.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>JigLibX\Physics\PhysicsCollision.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Physics.FrozenCollisionPredicate" Collapsed="true">
+    <Position X="11.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JigLibX\Physics\PhysicsCollision.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Physics.PhysicsSystem" Collapsed="true">
+    <Position X="44.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEMgqwgAgApIZAIUIQQLgjCSackCDCw5bAUGgGDkGg=</HashCode>
+      <FileName>JigLibX\Physics\PhysicsSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Physics.BodyRenderExtensions" Collapsed="true">
+    <Position X="37.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAQAAAAAAAAAAAAAAAAAgAAAAAAAAAAAgAFAAA=</HashCode>
+      <FileName>JigLibX\Utils\BodyRenderExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Utils.Array2D" Collapsed="true">
+    <Position X="36" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAqkAAAIBAACAgAmAAQAAQAAAKAAIAAQAAAAEEAABA=</HashCode>
+      <FileName>JigLibX\Utils\Array2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Utils.JiggleUnsafe" Collapsed="true">
+    <Position X="36" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JigLibX\Utils\JiggleUnsafe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Vehicles.Car" Collapsed="true">
+    <Position X="44.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAICARgAAAkQgAYAQBAoQAAAiABCgAAQCAAAECICSBA=</HashCode>
+      <FileName>JigLibX\Vehicles\Car.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Vehicles.Chassis" Collapsed="true">
+    <Position X="36" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAEAAIABAAAAAAAAAABAAAAAQACIAAAAAAAAAQAAEA=</HashCode>
+      <FileName>JigLibX\Vehicles\Chassis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Vehicles.ChassisBody" Collapsed="true">
+    <Position X="8.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAABAAAAAAAACAAAAAAACAA=</HashCode>
+      <FileName>JigLibX\Vehicles\Chassis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Vehicles.Wheel" Collapsed="true">
+    <Position X="37.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQ6BAhCCAABZAAEQBIAIIEBAIjBEICBEBAAQVAAAIA=</HashCode>
+      <FileName>JigLibX\Vehicles\Wheel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JigLibX.Vehicles.WheelPred" Collapsed="true">
+    <Position X="5.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAgAAA=</HashCode>
+      <FileName>JigLibX\Vehicles\Wheel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="JigLibX.Collision.CollDetectInfo" Collapsed="true">
+    <Position X="36" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAIYAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>JigLibX\Collision\CollisionInfo.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="JigLibX.Collision.SmallCollPointInfo" Collapsed="true">
+    <Position X="41.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAgAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>JigLibX\Collision\CollisionInfo.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="JigLibX.Collision.MaterialPairProperties" Collapsed="true">
+    <Position X="41.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAQAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JigLibX\Collision\Materials.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="JigLibX.Collision.MaterialProperties" Collapsed="true">
+    <Position X="43" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAABAABAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>JigLibX\Collision\Materials.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="JigLibX.Geometry.IndexedTriangle" Collapsed="true">
+    <Position X="37.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAIIAAAEAAAAEQAAAACAAAAgEAEAIAIEAAEAA=</HashCode>
+      <FileName>JigLibX\Geometry\IndexedTriangle.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="JigLibX.Geometry.TriangleVertexIndices" Collapsed="true">
+    <Position X="37.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAIAAAAAACEAAAAAAAAAAAA=</HashCode>
+      <FileName>JigLibX\Geometry\IndexedTriangle.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="JigLibX.Geometry.Line" Collapsed="true">
+    <Position X="39.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAIAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>JigLibX\Geometry\Line.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="JigLibX.Geometry.Ray" Collapsed="true">
+    <Position X="36" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAIAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>JigLibX\Geometry\Line.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="JigLibX.Geometry.Segment" Collapsed="true">
+    <Position X="39.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgACAA=</HashCode>
+      <FileName>JigLibX\Geometry\Line.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="JigLibX.Geometry.PrimitiveProperties" Collapsed="true">
+    <Position X="44.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAAAAA=</HashCode>
+      <FileName>JigLibX\Geometry\Primitives\Primitive.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="JigLibX.Geometry.Rectangle" Collapsed="true">
+    <Position X="37.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAgAAAQ=</HashCode>
+      <FileName>JigLibX\Geometry\Rectangle.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="JigLibX.Geometry.Triangle" Collapsed="true">
+    <Position X="36" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBAAJAAAAAAAAAAAAIAAAAAAIAAIACAAEAIAAAgAAAQ=</HashCode>
+      <FileName>JigLibX\Geometry\Triangle.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="JigLibX.Math.Transform" Collapsed="true">
+    <Position X="43" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAgIAABAAAAAAAAAAAAAFAAAAAAAAA=</HashCode>
+      <FileName>JigLibX\Math\Transform.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="JigLibX.Math.TransformRate" Collapsed="true">
+    <Position X="44.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>JigLibX\Math\Transform.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="Coursework_Game.e_UFOStates" Collapsed="true">
+    <Position X="37.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAgAAAAQAAAAAAAAAAAIABAAAAAAAA=</HashCode>
+      <FileName>GameVariables.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="JigLibX.Geometry.PrimitiveType" Collapsed="true">
+    <Position X="39.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAIBQAAAAAAAIAAAAAEAYAAAAAABA=</HashCode>
+      <FileName>JigLibX\Geometry\Primitives\Primitive.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="JigLibX.Collision.CollisionCallbackFn" Collapsed="true">
+    <Position X="36" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>JigLibX\Collision\CollisionSystem.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
